@@ -57,7 +57,7 @@ was encountered.
 
 The bucket ARN was corrected to:
 
-arn:aws:s3:::ummiya-ststic-website/*
+arn:aws:s3:::ummiya-static-website/*
 
 After correcting the bucket name in the ARN, the bucket policy
 was successfully saved.
