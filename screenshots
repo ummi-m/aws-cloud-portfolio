@@ -1,0 +1,34 @@
+Deployment Evidence — A collection of screenshots documenting the configuration, deployment, access control, and successful execution of the static website hosted on Amazon S3.
+
+bucket.png
+Amazon S3 Bucket Configuration — Shows the AWS S3 bucket created to host the static web application in the Asia Pacific (Hyderabad) region.
+
+static-website-hosting.png
+Static Website Hosting — Shows the configuration of Amazon S3 for static website hosting, including the index and error documents and the generated website endpoint.
+
+bucket-policy.png
+S3 Access Policy Configuration — Shows the bucket policy granting public read access to website objects through the s3:GetObject permission.
+
+website-files.png
+Website Deployment to S3 — Shows the website files successfully uploaded to the S3 bucket.
+
+live-website.png
+Live AWS Deployment — Shows the successfully deployed website being accessed through the Amazon S3 website endpoint.
+
+index.png
+Website Homepage — Shows the main homepage of the deployed cloud-based website.
+
+aws-challenge.png
+AWS Challenge Section — Shows the AWS challenge component included in the deployed website.
+
+build-cloud.png
+Build Cloud Section — Shows the cloud-building section of the deployed website.
+
+error.png
+Error Page — Shows the configured error page used when a requested webpage is unavailable.
+
+mission.png
+Mission Section — Shows the mission section of the deployed website.
+
+result.png
+Project Result — Shows the final result of the completed website deployment.
