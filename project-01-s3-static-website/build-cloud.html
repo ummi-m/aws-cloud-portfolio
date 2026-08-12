@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>AWS Cloud Quest - Build Your Cloud</title>
+
+</head>
+
+
+<body>
+
+<center>
+
+
+<header>
+
+    <h1>☁️ AWS CLOUD QUEST</h1>
+
+    <h2>🏗️ MISSION 3 — BUILD YOUR CLOUD</h2>
+
+    <p>
+        <strong>LEVEL 3 OF 4</strong>
+    </p>
+
+    <progress value="75" max="100"></progress>
+
+    <hr width="80%">
+
+</header>
+
+
+<main>
+
+    <h2>🏢 YOU ARE NOW THE CLOUD ARCHITECT!</h2>
+
+
+    <table border="1" width="80%" cellpadding="20">
+
+        <tr>
+
+            <td align="center">
+
+                <h3>📢 YOUR CLIENT NEEDS YOUR HELP!</h3>
+
+                <p>
+                    A new online shopping company has hired you
+                    to design its cloud infrastructure.
+                </p>
+
+                <p>
+                    The company needs servers, storage,
+                    databases, networking and fast content delivery.
+                </p>
+
+                <p>
+                    <strong>
+                        Your job is to select the AWS services
+                        that you think the company needs.
+                    </strong>
+                </p>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <br>
+
+
+<form action="result.html">
+
+
+    <fieldset>
+
+        <legend>
+            <strong>🧩 CHOOSE YOUR AWS SERVICES</strong>
+        </legend>
+
+        <p>
+            Select the services you would use.
+        </p>
+
+
+        <input
+            type="checkbox"
+            name="service"
+            value="EC2"
+            id="service1">
+
+        <label for="service1">
+            🖥️ Amazon EC2 — Virtual Servers
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="checkbox"
+            name="service"
+            value="S3"
+            id="service2">
+
+        <label for="service2">
+            📦 Amazon S3 — Object Storage
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="checkbox"
+            name="service"
+            value="RDS"
+            id="service3">
+
+        <label for="service3">
+            🗄️ Amazon RDS — Database
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="checkbox"
+            name="service"
+            value="CloudFront"
+            id="service4">
+
+        <label for="service4">
+            🌐 Amazon CloudFront — Content Delivery
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="checkbox"
+            name="service"
+            value="Route53"
+            id="service5">
+
+        <label for="service5">
+            🌍 Amazon Route 53 — DNS
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="checkbox"
+            name="service"
+            value="Lambda"
+            id="service6">
+
+        <label for="service6">
+            ⚡ AWS Lambda — Serverless Computing
+        </label>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <fieldset>
+
+        <legend>
+            <strong>🌎 CHOOSE YOUR CLOUD DEPLOYMENT MODEL</strong>
+        </legend>
+
+
+        <input
+            type="radio"
+            name="deployment"
+            value="Public"
+            required>
+
+        <label>
+            ☁️ Public Cloud
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="radio"
+            name="deployment"
+            value="Private">
+
+        <label>
+            🔒 Private Cloud
+        </label>
+
+        <br><br>
+
+
+        <input
+            type="radio"
+            name="deployment"
+            value="Hybrid">
+
+        <label>
+            🔄 Hybrid Cloud
+        </label>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <fieldset>
+
+        <legend>
+            <strong>🎯 FINAL ARCHITECT DECISION</strong>
+        </legend>
+
+        <p>
+            What do you think is the biggest advantage
+            of cloud computing?
+        </p>
+
+
+        <select name="advantage" required>
+
+            <option value="">
+                -- Choose one --
+            </option>
+
+            <option>
+                Scalability
+            </option>
+
+            <option>
+                Cost Efficiency
+            </option>
+
+            <option>
+                Flexibility
+            </option>
+
+            <option>
+                Availability
+            </option>
+
+            <option>
+                All of the above
+            </option>
+
+        </select>
+
+    </fieldset>
+
+
+    <br>
+
+
+    <fieldset>
+
+        <legend>
+            💭 YOUR CLOUD ARCHITECT IDEA
+        </legend>
+
+        <p>
+            In one sentence, describe your cloud solution:
+        </p>
+
+        <textarea
+            name="idea"
+            rows="5"
+            cols="60"
+            placeholder="Describe your cloud architecture here..."></textarea>
+
+    </fieldset>
+
+
+    <br><br>
+
+
+    <input
+        type="submit"
+        value="🏆 COMPLETE CLOUD QUEST">
+
+
+</form>
+
+
+<br><br>
+
+
+<table border="1" cellpadding="10">
+
+    <tr>
+
+        <th>MISSION CONTROL</th>
+
+    </tr>
+
+    <tr>
+
+        <td>
+
+            <a href="index.html">
+                🏠 Home
+            </a>
+
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+
+            <a href="aws-challenge.html">
+                ← ☁️ Mission 2
+            </a>
+
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+
+            <a href="result.html">
+                🏆 Complete →
+            </a>
+
+        </td>
+
+    </tr>
+
+</table>
+
+
+<br>
+
+
+<details>
+
+    <summary>
+        💡 CLOUD ARCHITECT TIP
+    </summary>
+
+    <p>
+        A good cloud solution normally uses several
+        services together rather than relying on only
+        one service.
+    </p>
+
+</details>
+
+
+</main>
+
+
+<footer>
+
+    <hr width="80%">
+
+    <p>
+        🔐 Mission 3 | Cloud Architecture
+    </p>
+
+</footer>
+
+
+</center>
+
+</body>
+
+</html>
