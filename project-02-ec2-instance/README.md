@@ -68,3 +68,16 @@ Successfully created and connected to an Amazon EC2 instance using the AWS Manag
 - Public IP configuration
 - Basic AWS networking
 - AWS troubleshooting
+
+  ## 💻 Successful EC2 Connection
+
+The EC2 instance was successfully accessed using EC2 Instance Connect.
+
+### Output
+
+- Operating System: Amazon Linux 2023 )
+- Logged-in user: ec2-user
+- Hostname: ip-172-31-37-25.ap-south-2.compute.internal
+
+![Successful EC2 Connection]
+(EC2 instance connected.PNG)
